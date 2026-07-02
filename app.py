@@ -3,9 +3,9 @@ import requests
 import pandas as pd
 from streamlit_geolocation import streamlit_geolocation
 
-st.set_page_config(page_title="Traffic Sentinel", page_icon="🚗")
+st.set_page_config(page_title="Insiyab", page_icon="🚗")
 
-st.title("🚗 Traffic Sentinel AI")
+st.title("🚗 Insiyab AI")
 
 # 1. Get location and save to session state
 location = streamlit_geolocation()
